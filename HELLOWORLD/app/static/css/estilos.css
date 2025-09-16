@@ -1,0 +1,18 @@
+body {font-family: Arial; margin:20px; background-color: grey;}
+form {margin-bottom: 20px; padding: 15px;border: 1px solid #ccc; border-radius: 5px;}
+label {display: block; margin-bottom: 5px;}
+.create-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 1px solid #ddd;
+  box-sizing: border-box;
+}
+button[type="submit"]{
+  background-color: #ffb700;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type="submit"]:hover{background-color: #45a049;}
