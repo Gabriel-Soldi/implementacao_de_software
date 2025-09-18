@@ -8,6 +8,9 @@
   </head>
   <body>
     <h1>Criar Usuario</h1>
+     <a href="{{ url_for('hello.tarefas') }}">
+    <button>Acessar Tarefas</button>
+  </a>
     <form class= "create-form" action="/novoUsuario" method="POST">
       <label form="nome">Nome Usuário</label>
       <input type="text" id="nome" name="nome_usuario" placeholder="Digite seu nome" required />
@@ -19,7 +22,7 @@
       <li>
         <form
           action=" {{url_for('hello.editarUsuario', usuario_id=usuario.id)}}"
-          ,
+      
           method="POST"
         >
           <input
